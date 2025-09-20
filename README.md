@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Aryan  
+# 👋 Hi, I'm Ariyan  
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ARYWK40-HUE&label=Profile%20views&color=0e75b6&style=flat)  
 ![GitHub followers](https://img.shields.io/github/followers/ARYWK40-HUE?label=Followers&style=social)  
