@@ -4,6 +4,14 @@
 
 </div>
 
+<div align="center">
+
+<img src="https://img.shields.io/badge/Powered%20by-Coffee-6F4E37?style=for-the-badge&logo=buymeacoffee&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Debugging%20Life-8e2de2?style=for-the-badge&logo=codeforces&logoColor=white"/>
+<img src="https://img.shields.io/badge/Runs%20on-console.log-informational?style=for-the-badge&logo=javascript&logoColor=white"/>
+
+</div>
+
 <br/>
 
 ```rust
@@ -29,6 +37,49 @@ fn main() {
 
 > 🔭 Currently building out full-stack projects and sharpening DSA for competitive programming.
 > 🤝 Actively contributing through [GSSoC (GirlScript Summer of Code)](https://gssoc.girlscript.org/profile/139b1672-a7f0-49f5-b9db-fe88a0f15aab) — open source & Hacktoberfest prep in progress.
+
+<br/>
+
+## Competitive Programming
+
+<div align="center">
+
+<a href="https://leetcode.com/u/arwk90/">
+  <img src="https://leetcard.jacoblin.cool/arwk90?theme=dark&font=Fira%20Code&ext=heatmap"/>
+</a>
+
+</div>
+
+<div align="center">
+
+<a href="https://codeforces.com/profile/arywk-40">
+  <img src="https://img.shields.io/badge/Codeforces-arywk--40-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/>
+</a>
+
+</div>
+
+<br/>
+
+## Certifications
+
+<p>
+  <a href="https://openprofile.dev/?lfajs_aid=29774113-4b53ca54-8e7d-4d8a-818a-3e2d9c6895d3">
+    <img src="https://img.shields.io/badge/Linux%20Foundation-LFC102%20Inclusive%20Open%20Source%20Community%20Orientation-0A0A0A?style=for-the-badge&logo=linuxfoundation&logoColor=white"/>
+  </a>
+</p>
+
+<table>
+  <tr>
+    <td width="140">
+      <img src="assets/lfc102-badge.png" width="120"/>
+    </td>
+    <td>
+      <b>LFC102 — Inclusive Open Source Community Orientation</b><br/>
+      Issued by The Linux Foundation · Open Source Best Practice<br/>
+      <a href="https://openprofile.dev/?lfajs_aid=29774113-4b53ca54-8e7d-4d8a-818a-3e2d9c6895d3">View credential →</a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
