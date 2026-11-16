@@ -20,7 +20,7 @@
   </style>
   <rect x="0.5" y="0.5" width="1279" height="419" rx="22" fill="url(#bg)" stroke="#d8dee8"/>
   <rect x="64" y="0" width="120" height="4" rx="2" fill="#7c3aed"/>
-  <text class="lab" x="64" y="70">01 · EDGE ML · SOLO</text>
+  <text class="lab" x="64" y="70">01 · EDGE ML · WITH A COLLABORATOR</text>
   <text class="name" x="62" y="132">INDRA</text>
   <text class="tag" x="64" y="176">Weather and hazard forecasting that runs</text><text class="tag" x="64" y="206">on the sensor node itself.</text>
   <text class="mv" x="64" y="262">1.14 °C</text><text class="ml" x="64" y="288">+6 h forecast MAE</text><text class="mv" x="334" y="262">50–83%</text><text class="ml" x="334" y="288">skill over persistence</text><text class="mv" x="64" y="340">2.96 MB</text><text class="ml" x="64" y="366">firmware + model on ESP32-S3</text><text class="mv" x="334" y="340">402</text><text class="ml" x="334" y="366">tests passing</text>
