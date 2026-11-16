@@ -10,7 +10,6 @@
 <a href="https://www.linkedin.com/in/ariyan-bhakat-730871315"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:ARYWK40@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://x.com/DjBh71983363"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
-<a href="https://codeforces.com/profile/arywk-40"><img src="https://img.shields.io/badge/Codeforces-max%201460-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"></a>
 <a href="https://leetcode.com/u/arwk90/"><img src="https://img.shields.io/badge/LeetCode-arwk90-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
 <a href="https://gssoc.girlscript.org/profile/139b1672-a7f0-49f5-b9db-fe88a0f15aab"><img src="https://img.shields.io/badge/GSSoC-Contributor-FF7139?style=for-the-badge" alt="GSSoC"></a>
 
@@ -37,7 +36,7 @@ I'm a second-year **Data Science & AI** undergrad at **IIT Mandi** who builds wh
 | 🥉 | **3rd Prize** · Space Code, STAC Club | |
 | 🏅 | **5th Prize** · Simplify AI Hackathon 2025 | [FeelEase](https://github.com/arywk40-hue/FEEL-EASE-CHAT-BOT): multilingual mental-health chatbot |
 
-**Leaderboards** · AIHack India (IIT Mandi SoM): **rank 16**, public score 0.768 on unsecured-loan default prediction · KRACKHACK: DINOv2 off-road segmentation, **40.5% mIoU** (6 classes) / 24.3% (10 classes) · Codeforces: **Specialist** peak (1460)
+**Leaderboards** · AIHack India (IIT Mandi SoM): **rank 16**, public score 0.768 on unsecured-loan default prediction · KRACKHACK: DINOv2 off-road segmentation, **40.5% mIoU** (6 classes) / 24.3% (10 classes)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
@@ -143,7 +142,6 @@ Agents inspect dirty tables and take structured cleaning actions. Six tasks are 
 |---|---|---|
 | 📈 [HFT Quant Research](https://github.com/arywk40-hue/hft) | Development study on 70 trading days: 691 masked features × 5 horizons, **543 survive Benjamini–Hochberg FDR**; Ridge / Elastic Net / LightGBM compared | Holdout validation (days 86–108), cluster extension |
 | 🗣️ [Rajasthani LLM](https://github.com/arywk40-hue/Rajasthani-llm) | ASR / MT / TTS pipeline, real IndicTrans2 & Whisper inference wrappers, verified WER / chrF++ metrics | Dialect speech & text collection, then fine-tuning for Marwari, Mewari, Dhundhari, Hadoti, Mewati, Bagri |
-| 🔐 Ethereum AI Wallet *(private, Inter IIT 15.0)* | Air-gapped layer letting a local Qwen 2.5 3B advise on, but never sign, wallet actions | Final evaluation & write-up |
 | 👵 [ElderCare Guardian](https://github.com/arywk40-hue/Three-Musketeers) | Wearable for vitals, fall detection, SOS & caregiver alerts (team, v1.0.0-beta) | Pre-pilot field trial |
 | 🌳 [Outside Case](https://github.com/arywk40-hue/pocket-quest) | Detective walk game with local Gemma photo review, Hacktoberfest 2026 | Real-photo evaluation & outdoor trial |
 
