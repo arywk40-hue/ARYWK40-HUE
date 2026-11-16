@@ -51,11 +51,11 @@ I'm a second-year **Data Science & AI** undergrad at **IIT Mandi** who builds wh
 <td width="50%" valign="top">
 
 ### 🌦️ [INDRA](https://github.com/arywk40-hue/DP-IC-202-)
-**Weather forecasting & environmental monitoring for the Himalayas**
+**Edge weather & hazard intelligence for India**
 
-Sensor nodes (BME280, PMS7003, GPS, INA219) feed on-device ML on ESP32, with cloudburst and snowstorm prediction as the goal. Trained on **1.5M hourly records from 374 Indian sites** across six channels.
+BME280 and PMS7003 sensor nodes run C++ models on ESP32-S3 for cloudburst and snowstorm risk. They are backed by a forecasting ensemble covering **587 stations across 6 agro-climatic zones**, with a +6 h validation MAE of **1.14 °C**. **402 tests** pass.
 
-`C++` `ESP32` `XGBoost` `Python` · mentored by Dr. Kaushik Halder
+`C++17` `ESP32-S3` `XGBoost` `Python` · mentored by Dr. Kaushik Halder
 
 </td>
 <td width="50%" valign="top">
@@ -63,7 +63,7 @@ Sensor nodes (BME280, PMS7003, GPS, INA219) feed on-device ML on ESP32, with clo
 ### 🛡️ [VegaGuard](https://github.com/arywk40-hue/alpaca)
 **Paper-only options agent for the Alpaca AI Trading Agents Hackathon**
 
-Scans liquid ETFs, builds defined-risk debit spreads and passes every trade through risk gates. *The model can explain a trade, but it can't authorize one.* Ships dry-run by default with **81 tests passing**.
+Scans liquid ETFs, builds defined-risk debit spreads and passes every trade through a risk critic. *The model can explain a trade, but it can't authorize one.* Ships dry-run by default with **186 tests passing**.
 
 `Python` `MCP` `Alpaca API` `Agents`
 
@@ -82,37 +82,34 @@ Extracts clauses, scores risk and enforces a human-in-the-loop gate. Every step 
 </td>
 <td width="50%" valign="top">
 
-### 📈 [HFT Quant Research](https://github.com/arywk40-hue/hft)
-**Short-horizon predictability under strict validation**
+### 🤝 [ServiceSetu](https://github.com/arywk40-hue/ServiceSetu)
+**Agentic local-service booking on Fetch.ai**
 
-```text
-691 engineered features  →  3,455 hypotheses
-543 survived FDR control  ·  70 trading days
-```
+Book a trusted provider, approve the exact price and recover automatically when they cancel, all in one ASI:One conversation. Payments run in test mode. **346 tests passing**.
 
-`Ridge` `Elastic Net` `LightGBM` `IC analysis` `Backtesting`
+`Python` `Fetch.ai uAgents` `ASI:One` `Razorpay / Stripe test mode`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🗣️ [Rajasthani LLM](https://github.com/arywk40-hue/Rajasthani-llm)
-**Speech & translation for low-resource Rajasthani dialects**
+### 📚 [Study Companion](https://github.com/arywk40-hue/Multimodal-2026)
+**A tutor grounded in your own PDFs, slides and lectures**
 
-ASR, TTS and machine translation across Marwari, Mewari, Dhundhari, Hadoti, Mewati and Bagri.
+A second model from a different family checks every claim against the passage it cites. Each citation opens the exact page region, slide or video second. Also includes lessons, flashcards and voice input.
 
-`PyTorch` `ASR` `TTS` `MT` `LLMs`
+`Python` `FastAPI` `RAG` `Multimodal` `React`
 
 </td>
 <td width="50%" valign="top">
 
 ### 🔤 [InterIIT NLP](https://github.com/arywk40-hue/interiit-bootcamp)
-**Romanized, code-mixed Hinglish classification**
+**Real-time sentiment for Romanized, code-mixed Hinglish**
 
-Gated RAW / ORTHO / PHONETIC fusion in under 500M parameters, with CPU INT8 optimization aimed at single-digit-millisecond latency.
+A character TF-IDF engine that keeps emoji and punctuation intact. It scores **0.686 macro-F1** on 3,000 held-out SentiMix messages at **0.83 ms p95** on one CPU core, with no LLM in the inference path.
 
-`PyTorch` `NLP` `Quantization`
+`Python` `scikit-learn` `NLP` `Latency engineering`
 
 </td>
 </tr>
@@ -122,7 +119,7 @@ Gated RAW / ORTHO / PHONETIC fusion in under 500M parameters, with CPU INT8 opti
 ### ⛓️ [GeoLedger](https://github.com/arywk40-hue/Stellar)
 **Transparent donations on Stellar**
 
-Donations carry geolocation metadata and NGOs submit impact evidence, all backed by Soroban smart contracts.
+Donations carry geolocation metadata and NGOs submit impact evidence, all backed by Soroban contracts for escrow, verification and NFTs.
 
 `Rust` `Soroban` `Next.js`
 
@@ -132,7 +129,7 @@ Donations carry geolocation metadata and NGOs submit impact evidence, all backed
 ### 🧹 [Meta-X](https://github.com/arywk40-hue/META-X)
 **OpenEnv RL environment for data cleaning (Meta hackathon)**
 
-Agents inspect dirty tables and take structured cleaning actions, scored on six tasks by deterministic graders with dense rewards.
+Agents inspect dirty tables and take structured cleaning actions. Six tasks are scored by deterministic graders with dense rewards.
 
 `Python` `OpenEnv` `RL` `Docker`
 
@@ -140,28 +137,38 @@ Agents inspect dirty tables and take structured cleaning actions, scored on six 
 </tr>
 </table>
 
+### 🚧 Building now
+
+| Project | Done so far | Next |
+|---|---|---|
+| 📈 [HFT Quant Research](https://github.com/arywk40-hue/hft) | Development study on 70 trading days: 691 masked features × 5 horizons, **543 survive Benjamini–Hochberg FDR**; Ridge / Elastic Net / LightGBM compared | Holdout validation (days 86–108), cluster extension |
+| 🗣️ [Rajasthani LLM](https://github.com/arywk40-hue/Rajasthani-llm) | ASR / MT / TTS pipeline, real IndicTrans2 & Whisper inference wrappers, verified WER / chrF++ metrics | Dialect speech & text collection, then fine-tuning for Marwari, Mewari, Dhundhari, Hadoti, Mewati, Bagri |
+| 🔐 Ethereum AI Wallet *(private, Inter IIT 15.0)* | Air-gapped layer letting a local Qwen 2.5 3B advise on, but never sign, wallet actions | Final evaluation & write-up |
+| 👵 [ElderCare Guardian](https://github.com/arywk40-hue/Three-Musketeers) | Wearable for vitals, fall detection, SOS & caregiver alerts (team, v1.0.0-beta) | Pre-pilot field trial |
+| 🌳 [Outside Case](https://github.com/arywk40-hue/pocket-quest) | Detective walk game with local Gemma photo review, Hacktoberfest 2026 | Real-photo evaluation & outdoor trial |
+
 <details>
 <summary><b>🧪 More builds</b> (click to expand)</summary>
 <br>
 
 | Area | Project | What it is |
 |---|---|---|
-| AI / ML | [PlantWhisperer Pro](https://github.com/arywk40-hue/plant-wishperer) | Crop-health monitoring that flags plant issues before they're visible |
-| AI / ML | [Study Companion](https://github.com/arywk40-hue/Multimodal-2026) | Course tutor over PDFs, slides & lectures with cross-model citation checks |
-| AI / ML | [Mess Queue Management](https://github.com/arywk40-hue/MQM) | Computer-vision congestion monitor for the IIT Mandi mess |
-| AI / ML | [Bone Fracture Classification](https://github.com/arywk40-hue/kbg) | 12-class classifier, Kamand Bioengineering Group Hackathon 2025 |
+| AI / ML | [CiteTutor](https://github.com/arywk40-hue/hacktober) | Local study helper: Gemma drafts, Qwen verifies, all grounded in your PDFs |
+| AI / ML | [Mess Queue Management](https://github.com/arywk40-hue/MQM) | Computer-vision congestion monitor for the IIT Mandi mess (Robotronics Club) |
+| AI / ML | [Bone Fracture Classification](https://github.com/arywk40-hue/kbg) | 12-class X-ray classifier, Kamand Bioengineering Group Hackathon 2025 |
 | AI / ML | [Bias Mirror](https://github.com/arywk40-hue/bias-mirror) | Meeting-equity auditor using speaker diarization |
-| AI / ML | [Outside Case](https://github.com/arywk40-hue/pocket-quest) | Detective walk game interpreted by a local Gemma model, Hacktoberfest 2026 |
-| Agents | [ServiceSetu](https://github.com/arywk40-hue/ServiceSetu) | Approval-gated service booking with Fetch.ai provider agents |
+| AI / ML | [FeelEase](https://github.com/arywk40-hue/FEEL-EASE-CHAT-BOT) | Streamlit + Gemini support chatbot in English, Hindi & Bengali with TTS (🏅 Simplify AI) |
+| AI / ML | [PlantWhisperer Pro](https://github.com/arywk40-hue/plant-wishperer) | Crop-health monitoring dashboard prototype |
+| Agents | [VentureSwarm](https://github.com/arywk40-hue/zynd) | Multi-agent startup-intelligence swarm on the ZyndAI Agent SDK |
+| Web3 | [Governance Budget Allocator](https://github.com/arywk40-hue/WEB3) | Role-based shared budgets on Soroban (🥇 Aya Build & Learn Week) |
 | Web3 | [AuraVerse](https://github.com/arywk40-hue/AYA) | NFT marketplace with auctions & royalties (Solidity, Hardhat, React) |
-| Web3 | Ethereum AI Wallet *(in progress)* | Local LLM wallet assistant with Ollama + Qwen 2.5 3B and MCP tool calling, on Anvil & Sepolia |
 | Hackathons | [Marswalk Navigator](https://github.com/arywk40-hue/marswalk-navigator) | EVA route & hazard planner for Mars, NASA Space Apps 2026 |
-| Hackathons | [RekhaMap](https://github.com/arywk40-hue/RekhaMap) | Urban parcel-mapping prototype, SIH 2026 |
+| Hackathons | [RekhaMap](https://github.com/arywk40-hue/RekhaMap) | Urban parcel-mapping frontend prototype, SIH 2026 |
 | Hackathons | [CampusFlow](https://github.com/arywk40-hue/samrt--campus) | Conflict-free campus resource allocation |
 | Hackathons | [Suraksha Yatra](https://github.com/arywk40-hue/Suraksha-) | Tourist-safety control room with risk scoring & emergency workflows |
 | Hardware | [PID Line Follower](https://github.com/arywk40-hue/F-D-P) | 5-sensor ESP32 robot with calibration & Kalman filtering |
 | Hardware | [Robotronics](https://github.com/arywk40-hue/Robotronics) | Dijkstra, A*, flood fill & DFS for robot pathfinding |
-| Hardware | ESP32 RC Car · RC Plane · Fall Detection | Wi-Fi vehicle control, flight electronics, sensor-based activity detection |
+| Hardware | ESP32 RC Car · RC Plane | Wi-Fi vehicle control and flight electronics |
 | Misc | Campus Navigator · NASA NEO Hazard · Cricket Analytics · Deepfake-proof eKYC · Supply Chain Platform | Pathfinding, gradient boosting, IPL analytics, identity verification, distributed backend |
 
 </details>
