@@ -52,7 +52,7 @@ I'm a second-year **Data Science & AI** undergrad at **IIT Mandi** who builds wh
 </picture>
 </a>
 
-**[INDRA](https://github.com/arywk40-hue/indra)** · C++17, ESP32-S3, XGBoost, FastAPI, React · mentored by Dr. Kaushik Halder<br>
+**[INDRA](https://github.com/arywk40-hue/indra)** · C++17, ESP32-S3, XGBoost, FastAPI, React · team of six, mentored by Dr. Kaushik Halder<br>
 Validated offline on 35,520 observations across 587 stations. A three-node field pilot around Mandi is next.
 
 <br>
