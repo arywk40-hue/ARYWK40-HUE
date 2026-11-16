@@ -69,7 +69,7 @@ me = Ariyan()
 [●] studying       Data Science & Artificial Intelligence @ IIT Mandi
 [●] building       ML systems, agents, LLMs and weird engineering projects
 [●] researching    efficient ML, quant strategies and computer vision
-[●] contributing   open source
+[●] contributing   PyBaMM — battery modelling in Python (NumFOCUS)
 [●] practicing     algorithms + competitive programming
 [●] debugging      everything else
 ```
@@ -278,6 +278,14 @@ And still collecting segmentation faults.
 # `🌐 Open Source`
 
 I spend a significant amount of time working in and around open-source projects.
+
+### PyBaMM
+
+[PyBaMM](https://github.com/pybamm-team/PyBaMM) (Python Battery Mathematical Modelling) is a NumFOCUS-sponsored package for physics-based battery simulation.
+
+* Pull request: [Evaluate processed variables at custom-named spatial coordinates](https://github.com/pybamm-team/PyBaMM/pull/6053) (fixes [#3441](https://github.com/pybamm-team/PyBaMM/issues/3441))
+* Issues with reproductions: [#6051](https://github.com/pybamm-team/PyBaMM/issues/6051) (NaN parameter reported as "not found"), [#6052](https://github.com/pybamm-team/PyBaMM/issues/6052) (invalid mesh inputs raise raw errors)
+* Code reviews: [#6044](https://github.com/pybamm-team/PyBaMM/pull/6044), [#6020](https://github.com/pybamm-team/PyBaMM/pull/6020), [#5979](https://github.com/pybamm-team/PyBaMM/pull/5979), [#5981](https://github.com/pybamm-team/PyBaMM/pull/5981)
 
 ### Current / Previous involvement
 
