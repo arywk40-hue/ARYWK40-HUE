@@ -103,34 +103,12 @@ A second model from a different family checks every claim against the passage it
 </td>
 <td width="50%" valign="top">
 
-### 🔤 [InterIIT NLP](https://github.com/arywk40-hue/interiit-bootcamp)
-**Real-time sentiment for Romanized, code-mixed Hinglish**
-
-A character TF-IDF engine that keeps emoji and punctuation intact. It scores **0.686 macro-F1** on 3,000 held-out SentiMix messages at **0.83 ms p95** on one CPU core, with no LLM in the inference path.
-
-`Python` `scikit-learn` `NLP` `Latency engineering`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### ⛓️ [GeoLedger](https://github.com/arywk40-hue/Stellar)
 **Transparent donations on Stellar**
 
 Donations carry geolocation metadata and NGOs submit impact evidence, all backed by Soroban contracts for escrow, verification and NFTs.
 
 `Rust` `Soroban` `Next.js`
-
-</td>
-<td width="50%" valign="top">
-
-### 🧹 [Meta-X](https://github.com/arywk40-hue/META-X)
-**OpenEnv RL environment for data cleaning (Meta hackathon)**
-
-Agents inspect dirty tables and take structured cleaning actions. Six tasks are scored by deterministic graders with dense rewards.
-
-`Python` `OpenEnv` `RL` `Docker`
 
 </td>
 </tr>
@@ -157,6 +135,7 @@ Agents inspect dirty tables and take structured cleaning actions. Six tasks are 
 | AI / ML | [Bias Mirror](https://github.com/arywk40-hue/bias-mirror) | Meeting-equity auditor using speaker diarization |
 | AI / ML | [FeelEase](https://github.com/arywk40-hue/FEEL-EASE-CHAT-BOT) | Streamlit + Gemini support chatbot in English, Hindi & Bengali with TTS (🏅 Simplify AI) |
 | AI / ML | [PlantWhisperer Pro](https://github.com/arywk40-hue/plant-wishperer) | Crop-health monitoring dashboard prototype |
+| AI / ML | [Meta-X](https://github.com/arywk40-hue/META-X) | OpenEnv RL environment for tabular data cleaning, Meta hackathon |
 | Agents | [VentureSwarm](https://github.com/arywk40-hue/zynd) | Multi-agent startup-intelligence swarm on the ZyndAI Agent SDK |
 | Web3 | [Governance Budget Allocator](https://github.com/arywk40-hue/WEB3) | Role-based shared budgets on Soroban (🥇 Aya Build & Learn Week) |
 | Web3 | [AuraVerse](https://github.com/arywk40-hue/AYA) | NFT marketplace with auctions & royalties (Solidity, Hardhat, React) |
