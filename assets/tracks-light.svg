@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="250" viewBox="0 0 1280 250" role="img" aria-labelledby="title">
+  <title id="title">Focus areas: AI and agentic systems, Web3 and blockchain, quant and research, systems and embedded</title>
+  <style>
+    .ttl{font:700 22px -apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;fill:#1f2328}
+    .kw{font:500 15px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#59636e}
+    .num{font:700 14px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:#59636e;opacity:.6;letter-spacing:2px}
+    .pulse{animation:p 3s ease-in-out infinite}
+    @keyframes p{50%{opacity:.35}}
+    @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+  </style>
+  <g>
+    <rect x="0.5" y="0.5" width="304.0" height="249" rx="18" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="24.0" y="0" width="257.0" height="3" rx="1.5" fill="#7c3aed"/>
+    <text class="num" x="277.0" y="44" text-anchor="end">01</text>
+    <line x1="34.0" y1="66" x2="68.0" y2="50" stroke="#7c3aed" stroke-width="2" opacity=".55"/><line x1="34.0" y1="66" x2="68.0" y2="82" stroke="#7c3aed" stroke-width="2" opacity=".55"/><line x1="68.0" y1="50" x2="100.0" y2="66" stroke="#7c3aed" stroke-width="2" opacity=".55"/><line x1="68.0" y1="82" x2="100.0" y2="66" stroke="#7c3aed" stroke-width="2" opacity=".55"/><line x1="68.0" y1="50" x2="68.0" y2="82" stroke="#7c3aed" stroke-width="2" opacity=".55"/><circle class="pulse" style="animation-delay:0.0s" cx="34.0" cy="66" r="7" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/><circle class="pulse" style="animation-delay:0.4s" cx="68.0" cy="50" r="7" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/><circle class="pulse" style="animation-delay:0.8s" cx="68.0" cy="82" r="7" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/><circle class="pulse" style="animation-delay:1.2000000000000002s" cx="100.0" cy="66" r="7" fill="#ffffff" stroke="#7c3aed" stroke-width="2.5"/>
+    <text class="ttl" x="28.0" y="152">AI &amp; Agentic Systems</text>
+    <text class="kw" x="28.0" y="186">LLMs · MCP · LangGraph</text>
+    <text class="kw" x="28.0" y="212">RAG · computer vision</text>
+  </g><g>
+    <rect x="325.5" y="0.5" width="304.0" height="249" rx="18" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="349.0" y="0" width="257.0" height="3" rx="1.5" fill="#0891b2"/>
+    <text class="num" x="602.0" y="44" text-anchor="end">02</text>
+    <rect class="pulse" style="animation-delay:0.0s" x="354.0" y="55" width="22" height="22" rx="5" fill="none" stroke="#0891b2" stroke-width="2.5"/><line x1="376.0" y1="66" x2="382.0" y2="66" stroke="#0891b2" stroke-width="2.5"/><rect class="pulse" style="animation-delay:0.4s" x="382.0" y="55" width="22" height="22" rx="5" fill="none" stroke="#0891b2" stroke-width="2.5"/><line x1="404.0" y1="66" x2="410.0" y2="66" stroke="#0891b2" stroke-width="2.5"/><rect class="pulse" style="animation-delay:0.8s" x="410.0" y="55" width="22" height="22" rx="5" fill="none" stroke="#0891b2" stroke-width="2.5"/>
+    <text class="ttl" x="353.0" y="152">Web3 &amp; Blockchain</text>
+    <text class="kw" x="353.0" y="186">Soroban · Rust · Solidity</text>
+    <text class="kw" x="353.0" y="212">Stellar · Ethereum</text>
+  </g><g>
+    <rect x="650.5" y="0.5" width="304.0" height="249" rx="18" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="674.0" y="0" width="257.0" height="3" rx="1.5" fill="#db2777"/>
+    <text class="num" x="927.0" y="44" text-anchor="end">03</text>
+    <line x1="688.0" y1="61.0" x2="688.0" y2="91.0" stroke="#db2777" stroke-width="1.5" opacity=".6"/><rect class="pulse" style="animation-delay:0.0s" x="684.0" y="67.0" width="8" height="18" rx="1.5" fill="none" stroke="#db2777" stroke-width="1.5"/><line x1="704.0" y1="41.0" x2="704.0" y2="79.0" stroke="#db2777" stroke-width="1.5" opacity=".6"/><rect class="pulse" style="animation-delay:0.3s" x="700.0" y="47.0" width="8" height="26" rx="1.5" fill="#db2777" stroke="#db2777" stroke-width="1.5"/><line x1="720.0" y1="54.0" x2="720.0" y2="82.0" stroke="#db2777" stroke-width="1.5" opacity=".6"/><rect class="pulse" style="animation-delay:0.6s" x="716.0" y="60.0" width="8" height="16" rx="1.5" fill="none" stroke="#db2777" stroke-width="1.5"/><line x1="736.0" y1="31.0" x2="736.0" y2="73.0" stroke="#db2777" stroke-width="1.5" opacity=".6"/><rect class="pulse" style="animation-delay:0.8999999999999999s" x="732.0" y="37.0" width="8" height="30" rx="1.5" fill="#db2777" stroke="#db2777" stroke-width="1.5"/><line x1="752.0" y1="46.0" x2="752.0" y2="78.0" stroke="#db2777" stroke-width="1.5" opacity=".6"/><rect class="pulse" style="animation-delay:1.2s" x="748.0" y="52.0" width="8" height="20" rx="1.5" fill="none" stroke="#db2777" stroke-width="1.5"/>
+    <text class="ttl" x="678.0" y="152">Quant &amp; Research</text>
+    <text class="kw" x="678.0" y="186">feature mining · FDR</text>
+    <text class="kw" x="678.0" y="212">backtests · ML experiments</text>
+  </g><g>
+    <rect x="975.5" y="0.5" width="304.0" height="249" rx="18" fill="#ffffff" stroke="#d8dee8"/>
+    <rect x="999.0" y="0" width="257.0" height="3" rx="1.5" fill="#059669"/>
+    <text class="num" x="1252.0" y="44" text-anchor="end">04</text>
+    <rect x="1023.0" y="48" width="36" height="36" rx="6" fill="none" stroke="#059669" stroke-width="2.5"/><rect class="pulse" x="1033.0" y="58" width="16" height="16" rx="3" fill="#059669"/><line x1="1013.0" y1="56" x2="1023.0" y2="56" stroke="#059669" stroke-width="2"/><line x1="1059.0" y1="56" x2="1069.0" y2="56" stroke="#059669" stroke-width="2"/><line x1="1031.0" y1="38" x2="1031.0" y2="48" stroke="#059669" stroke-width="2"/><line x1="1031.0" y1="84" x2="1031.0" y2="94" stroke="#059669" stroke-width="2"/><line x1="1013.0" y1="66" x2="1023.0" y2="66" stroke="#059669" stroke-width="2"/><line x1="1059.0" y1="66" x2="1069.0" y2="66" stroke="#059669" stroke-width="2"/><line x1="1041.0" y1="38" x2="1041.0" y2="48" stroke="#059669" stroke-width="2"/><line x1="1041.0" y1="84" x2="1041.0" y2="94" stroke="#059669" stroke-width="2"/><line x1="1013.0" y1="76" x2="1023.0" y2="76" stroke="#059669" stroke-width="2"/><line x1="1059.0" y1="76" x2="1069.0" y2="76" stroke="#059669" stroke-width="2"/><line x1="1051.0" y1="38" x2="1051.0" y2="48" stroke="#059669" stroke-width="2"/><line x1="1051.0" y1="84" x2="1051.0" y2="94" stroke="#059669" stroke-width="2"/>
+    <text class="ttl" x="1003.0" y="152">Systems &amp; Embedded</text>
+    <text class="kw" x="1003.0" y="186">ESP32 · sensor fusion</text>
+    <text class="kw" x="1003.0" y="212">edge inference · robotics</text>
+  </g>
+</svg>
